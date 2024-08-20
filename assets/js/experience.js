@@ -5,25 +5,32 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Software Development Intern",
-    cardImage: "assets/images/experience-page/flipkart.jpg",
-    place: "Flipkart",
-    time: "(May, 2020 - present)",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+    title: "Backend Software Developer",
+    cardImage: "assets/images/experience-page/darasani.jpg",
+    place: "Nairobi, Kenya",
+    time: "(June, 2024 - Present)",
+    desp: "<li>Developed new strategies and improved functionalities of the core e-sourcing auctioning module of the Darasani Hub SaaS.</li><li>Proactively profiled and optimized most used APIs, reducing the latency from 2-3s to under 500ms for some use cases.</li>",
+  },
+  {
+    title: "Software Developer Intern",
+    cardImage: "assets/images/experience-page/og-image-v2.jpg",
+    place: "Tublian",
+    time: "(October, 2023 - Feb 2024)",
+    desp: "<li>Worked to migrate Tublian lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Tublian to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
   },
   {
     title: "Student Developer",
     cardImage: "assets/images/experience-page/gsoc.png",
     place: "Google Summer Of Code",
-    time: "(Mar - Aug, 2019)",
+    time: "(Mar - Aug, 2024)",
     desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
   },
   {
-    title: "Research Intern",
-    cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
-    place: "IIT, Bombay",
-    time: "(Dec, 19 - Jan, 20)",
-    desp: "<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
+    title: "Customer care support Intern",
+    cardImage: "assets/images/experience-page/Equity-Centre.jpg",
+    place: "Equity Bank ltd, Kenya",
+    time: "(May, 2022 - September, 2022)",
+    desp: "<li>Analyzed support metrics to identify areas for improvement, implementing changes that increased ticket resolution speed by 25%.</li><li>Achieved a customer satisfaction rating of 95% by resolving technical issues efficiently and providing clear, helpful communication.</li>",
   },
 ];
 
@@ -62,28 +69,28 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
-    title: "GirlScript Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/1.jpg",
+    title: "2023 Aspire Tech Pilot",
+    cardImage: "assets/images/experience-page/ALP.png",
     description:
-      "Responsible for handling the projects GirlScript App and GirlScript Website Boilerplate.",
+      "Responsible for testing the programme delivery and it's effectiveness in leadership development",
   },
   {
-    title: "StudentCode-in 2020",
-    cardImage: "assets/images/experience-page/2.jpg",
+    title: "ALX Code Review",
+    cardImage: "assets/images/experience-page/ALX.jpeg",
     description:
-      "Responsible for handling open source contributions for the project Awesome Developer Portfolio.",
+      "Responsible review the quality of presentation and portfolio project for the learners, and providing constructive feedback",
   },
   {
-    title: "PClub Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/3.jpg",
+    title: "University of the People Ambassador",
+    cardImage: "assets/images/experience-page/UoPeople.jpeg",
     description:
-      "Mentoring for the projects Deep Pixel, AutoVaidya, Just Resume and Doc2pen.",
+      "Responsible for sensitizing people to join the University of the People which is a tuition-free learning institution",
   },
   {
-    title: "Hakin-Codes",
-    cardImage: "assets/images/experience-page/4.jpg",
+    title: "Founder Academy",
+    cardImage: "assets/images/experience-page/ALX-Ambassador.jpg",
     description:
-      "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
+      "Invited people to join the ALX Founder Academy Ventures programme",
   },
 ];
 

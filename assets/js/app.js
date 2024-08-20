@@ -26,7 +26,6 @@ let header = $(`
    <li class="nav-item nav-item-hover"><a class="nav-link" href="index.html">Home</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="experience.html">Experience</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="projects.html">Projects</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="research.html">Research</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="education.html">Education</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="https://hashnode.com/" target="_blank">Blogs</a></li>
    <li class="nav-item">
@@ -158,7 +157,7 @@ let footer = $(`
     
 
     <div class="rounded-social-buttons tag">
-    <a class="social-button twitter" href="#" target="_blank">
+    <a class="social-button twitter" href="https://x.com/intent/user?screen_name=collyns_codes" target="_blank">
     <!-- SVG code for twitter icon -->
     <svg class="twitter-icon-footer" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 500 500" enable-background="new 0 0 500 500"
@@ -216,10 +215,10 @@ let footer = $(`
     </svg>
     </a>
 
-    <a class="social-button linkedin" href="https://www.linkedin.com/in/collins-ochieng-9b2303251/" target="_blank" >
+    <a class="social-button linkedin" href="https://www.linkedin.com/in/collyns-ochieng/" target="_blank" >
     <!-- svg code for linkedin icon -->
-      <svg class="linkedin-icon-footer" xmlns="http://www.w3.org/2000/svg" width="35" viewBox="0 0 24 24" fill="#0e76a8"
-        stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin">
+      <svg class="linkedin-icon-footer feather feather-linkedin" xmlns="http://www.w3.org/2000/svg" width="35" viewBox="0 0 24 24" fill="#0e76a8"
+        stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
         <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
         <rect x="2" y="9" width="4" height="12"></rect>
         <circle cx="4" cy="4" r="2"></circle>
